@@ -1,0 +1,1 @@
+import{j as g}from"./index-be7b6e99.js";const u=({error:s,className:m,style:t={},...n})=>{var e,a;if(!s)return null;const l=s.message||((e=s.label)==null?void 0:e.message)||((a=s.value)==null?void 0:a.message);return g.jsx("p",{className:`drp-down-msg mb-0 ${m}`,style:t,...n,children:l})};export{u as C};

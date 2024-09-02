@@ -1,0 +1,1 @@
+import{a as o}from"./api-860653fa.js";const{Axios:a,AxiosError:e,CanceledError:s,isCancel:t,CancelToken:i,VERSION:n,all:l,Cancel:x,isAxiosError:C,spread:c,toFormData:d,AxiosHeaders:m,HttpStatusCode:p,formToJSON:A,getAdapter:E,mergeConfig:f}=o;export{C as i};

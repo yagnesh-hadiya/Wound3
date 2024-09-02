@@ -1,0 +1,1 @@
+import{j as t}from"./index-be7b6e99.js";const n=({msg:e,styles:r})=>t.jsx("p",{style:{marginTop:"20px",textAlign:"center",...r},children:(e==null?void 0:e.length)??"There are no records to display"});export{n as N};

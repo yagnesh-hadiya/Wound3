@@ -1,0 +1,58 @@
+/* LoginContainer.css */
+
+.login-container {
+  background-color: rgb(241, 14, 14);
+  height: 100vh; /* Fills the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-frame {
+  background-color: whitesmoke;
+  margin: 5%; /* Adjusted margin for responsiveness */
+  padding: 20px; /* Example padding */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  width: calc(90% - 40px); /* Adjusted width considering margin */
+  max-width: 100rem; /* Set maximum width for better readability on larger screens */
+  height: 80%; /* Set height to 80% of parent */
+  width: 90%; /* Set width to 80% of parent */
+}
+.wound_logo_frame {
+  width: 55%;
+  background-color: peachpuff;
+  height: 100%;
+  display: inline-block;
+}
+.login_form_frame {
+  width: 40%;
+  height: 100%;
+  background-color: whitesmoke;
+  display: inline-block;
+}
+/* .ellipse {
+  width: 200px; 
+  height: 100px; 
+  border-radius: 50%; 
+  background-color: #3498db; 
+} */
+
+.login-form-frame {
+  width: 460px;
+  height: 500px;
+  background-color: bisque;
+}
+
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  .login-frame {
+    margin: 5px; /* Adjusted margin for smaller screens */
+    padding: 10px; /* Adjusted padding for smaller screens */
+    width: calc(100% - 20px); /* Adjusted width for smaller screens */
+  }
+  .login-form-frame {
+    margin: 5px; /* Adjusted margin for smaller screens */
+    padding: 10px; /* Adjusted padding for smaller screens */
+    width: calc(100% - 20px); /* Adjusted width for smaller screens */
+  }
+}

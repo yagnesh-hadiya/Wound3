@@ -1,0 +1,1 @@
+import{r as a,j as s}from"./index-be7b6e99.js";import{I as o}from"./CustomInput-406dc174.js";const n=a.forwardRef(({type:r="textarea",...t},e)=>s.jsx(o,{type:r,className:"custom-textarea",innerRef:e,...t}));export{n as C};
